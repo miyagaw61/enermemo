@@ -1,8 +1,7 @@
 enermemo
 ========
 
-すごいメモスクリプト
-CTFのRev問のトレースとかもできます
+すごいメモスクリプト。CTFのRev問のトレースとかもできます
 
 ![top](https://i.imgur.com/7QFAylu.png)
 
