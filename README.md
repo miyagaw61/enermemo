@@ -10,6 +10,8 @@ install
 =======
 
 ```
+git clone https://github.com/miyagaw61/enert /SOMEWHERE
+export PYTHONPATH=$PYTHONPATH:/SOMEWHERE #bashrcに書いておくことをオススメします
 git clone https://github.com/miyagaw61/enermemo /SOMEWHERE
 ```
 
