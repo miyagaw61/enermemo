@@ -7,8 +7,6 @@
 
 from enert import *
 import re
-import better_exceptions
-better_exceptions.MAX_LENGTH = None
 
 if len(sys.argv) < 2:
     print("Usage: python enermemo.py [conf_file/snapshot_file]")
