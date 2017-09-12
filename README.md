@@ -26,7 +26,7 @@ Usage
 vim my.conf
 ```
 
-* [tag]:[name]:[default_value]
+* \[tag\]:\[name\]:\[default_value\]
 ```
 a:RAX:0x0000
 b:RBX:0x0000
