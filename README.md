@@ -4,6 +4,8 @@ enermemo
 すごいメモスクリプト
 CTFのRev問のトレースとかもできます
 
+[Imgur](https://i.imgur.com/7QFAylu.png)
+
 install
 =======
 
@@ -47,9 +49,11 @@ ENTERキーを押すことで値を更新することができます。
 ```
 +キーを押すことで項目を追加することができます。
 ```
+[Imgur](https://i.imgur.com/f39g3nW.png)
 
 * スナップショット作成
 ```
 Ctrl+sを押すことでスナップショットを作成することができます。
 次回、コマンドライン引数にスナップショットを与えて実行すれば、続きからできます。
 ```
+[Imgur](https://i.imgur.com/CEz5kyw.png)
