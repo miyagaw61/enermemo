@@ -1,2 +1,4 @@
 tags
 enermemo/tags
+enermemo/*.pyc
+enermemo/__pycache__
