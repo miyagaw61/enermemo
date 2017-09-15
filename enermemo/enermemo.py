@@ -1,8 +1,8 @@
-#       RevTrace - Register/Valiable Tracer For Reversing
+#       enermemo - miyagaw61's memo script
 #
-#       Copyright (C) 2017 miyagaw61 <miyagaw61 at miyagaw61.github.io>
+#       Copyright (C) 2017 Taisei Miyagawa <Twitter: @miyagaw61, WebPage: miyagaw61.github.io>
 #
-#       License: see LICENSE file for details
+#       License: GPL-3.0
 #
 
 from enert import *
