@@ -1,12 +1,11 @@
-enermemo
-========
+# enermemo - Python製メモスクリプト。CTFのRev問のトレースとかもできます
 
-すごいメモスクリプト。CTFのRev問のトレースとかもできます
+[![Twitter](https://imgur.com/Ibo0Twr)](https://twitter.com/miyagaw61)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 ![top](https://i.imgur.com/7QFAylu.png)
 
-install
-=======
+# install
 
 enertライブラリを使用しているので、無い場合は導入します
 ```
@@ -18,8 +17,7 @@ export PYTHONPATH=$PYTHONPATH:/SOMEWHERE #bashrcに書いておくことをオ�
 git clone https://github.com/miyagaw61/enermemo /SOMEWHERE
 ```
 
-Usage
-=====
+# Usage
 
 * conf_file作成
 ```
