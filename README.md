@@ -1,6 +1,6 @@
 # enermemo - Python製メモスクリプト。CTFのRev問のトレースとかもできます
 
-[![Twitter](https://imgur.com/Ibo0Twr)](https://twitter.com/miyagaw61)
+[![Twitter](https://imgur.com/Ibo0Twr.png)](https://twitter.com/miyagaw61)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 ![top](https://i.imgur.com/7QFAylu.png)

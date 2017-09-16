@@ -7,9 +7,9 @@ setup(
     description="memo script",
     author="Taisei Miyagawa <Twitter: @miyagaw61>",
     author_email="miyagaw61@gmail.com",
-    install_requires=['enert'],
-    dependency_links=['git+https://github.com/miyagaw61/enert.git#egg=enert'],
+    install_requires=['enert==0.0.1'],
+    dependency_links=['git+https://github.com/miyagaw61/enert.git@0.0.1#egg=enert-0.0.1'],
     entry_points = {'console_scripts': ['enermemo=enermemo.py']},
     url="https://github.com/miyagaw61/enermemo.git",
-    license="GPL-3.0"
+    license="MIT"
 )
