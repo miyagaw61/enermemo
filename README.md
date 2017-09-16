@@ -7,14 +7,8 @@
 
 # install
 
-enertライブラリを使用しているので、無い場合は導入します
 ```
-git clone https://github.com/miyagaw61/enert /SOMEWHERE
-export PYTHONPATH=$PYTHONPATH:/SOMEWHERE #bashrcに書いておくことをオススメします
-```
-本体の導入
-```
-git clone https://github.com/miyagaw61/enermemo /SOMEWHERE
+pip install "git+https://github.com/miyagaw61/enermemo.git#egg=enermemo" --find-links="git+https://github.com/miyagaw61/enert.git#egg=enert-0.0.1"
 ```
 
 # Usage
