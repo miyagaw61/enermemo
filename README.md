@@ -8,7 +8,7 @@
 # install
 
 ```
-pip install "git+https://github.com/miyagaw61/enermemo.git#egg=enermemo" --find-links="git+https://github.com/miyagaw61/enert.git#egg=enert-0.0.1"
+pip install "git+https://github.com/miyagaw61/enermemo.git#egg=enermemo" --find-links="git+https://github.com/miyagaw61/enert.git#egg=enert-0.0.2"
 ```
 
 # Usage
