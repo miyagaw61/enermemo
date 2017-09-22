@@ -13,12 +13,12 @@ if len(sys.argv) < 2:
     exit()
 
 regex_n = re.compile(r"\n")
-data = file(sys.argv[1]).linedata()
+data = fl(sys.argv[1]).linedata()
 lst = []
 tags = []
 default = []
 history = []
-if data[0] == "[+]snapshot\n":
+if data[0] == "[+]snapshot":
     history_lst = []
     lst = data[1].split(":")
     tags = data[2].split(":")
@@ -30,12 +30,12 @@ if data[0] == "[+]snapshot\n":
             history[counter].append(lines_splited[split_i])
         counter = counter + 1
 else:
-    for var in data:
-        lst.append(regex_n.sub("", var.split(":")[1]))
-    for var in data:
-        tags.append(regex_n.sub("", var.split(":")[0]))
-    for var in data:
-        default.append(regex_n.sub("", var.split(":")[2]))
+    for i in range(len(data)):
+        lst.append(regex_n.sub("", data[i].split(":")[1]))
+    for data[i] in data:
+        tags.append(regex_n.sub("", data[i].split(":")[0]))
+    for data[i] in data:
+        default.append(regex_n.sub("", data[i].split(":")[2]))
     for i in range(len(lst)):
         history.append([default[i]])
 term_y, term_x = get_term_size()
@@ -58,7 +58,7 @@ def enter_function():
     all_delete()
     sys.stdout.write(red("[+]EnerMemo : ", "bold") + green(lst[i], "bold"))
     save()
-    input_data = raw_input(blue(" --> ", "bold"))
+    input_data = input(blue(" --> ", "bold"))
     if not len(input_data) == 0:
         history[i].append(input_data)
         up(1)
@@ -164,14 +164,14 @@ while 1:
     elif key == "+":
         restore()
         all_delete()
-        name = raw_input(red("[+]name : ", "bold"))
+        name = input(red("[+]name : ", "bold"))
         up(1)
         all_delete()
-        tag = raw_input(red("[+]tag : ", "bold"))
+        tag = input(red("[+]tag : ", "bold"))
         tags.append(tag)
         up(1)
         all_delete()
-        default_data = raw_input(red("[+]default : ", "bold"))
+        default_data = input(red("[+]default : ", "bold"))
         history.append([default_data])
         up(1)
         all_delete()
@@ -193,13 +193,13 @@ while 1:
     elif ord(key) == CTRL_S:
         restore()
         all_delete()
-        snapshot_name = raw_input(red("[+]snapshot_name : ", "bold"))
-        f = file(snapshot_name)
+        snapshot_name = input(red("[+]snapshot_name : ", "bold"))
+        f = fl(snapshot_name)
         if f.exist():
             while 1:
                 up(1)
                 all_delete()
-                ans = raw_input(red("[!]already existed. overwrite? [y/n] : ", "bold"))
+                ans = input(red("[!]already existed. overwrite? [y/n] : ", "bold"))
                 if ans == "y":
                     up(1)
                     all_delete()
